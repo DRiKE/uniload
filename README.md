@@ -21,9 +21,17 @@ $ uniload 500
 
 ```
 
+# how to build uniload
+
+It's Rust, so get Rust via either https://rustup.rs/ or your distribution's package manager.
+Then, use `cargo build --release`, and find the uniload binary in `./target/release/`.
+Copy the binary to somewhere in your `$PATH`.
+
+
 # Why and where should I use this?
 
-I'm using this in my i3blocks status bar, and in my tmux status bar. 
+The simple output allows you to use it in text-based status bars.
+I'm using this in my i3blocks and tmux status bars.
 
 ## i3blocks
 
