@@ -3,7 +3,7 @@ use std::fs::File;
 use std::io::prelude::*;
 use std::{thread, time};
 
-// delay (in milliseconds between reading /proc/stat
+// delay (in milliseconds between reading /proc/stat)
 const DEFAULT_DELAY: u64 = 1000;
 
 // read the first NUM_COLS_IN_STAT columns from /proc/stat
