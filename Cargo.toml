@@ -1,0 +1,7 @@
+[package]
+name = "uniload"
+version = "0.1.0"
+authors = ["Luuk Hendriks <mail@luukhendriks.eu>"]
+edition = "2018"
+
+[dependencies]
