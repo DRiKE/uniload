@@ -4,6 +4,8 @@ uniload displays the load per CPU core of your system. It reads `/proc/stat`,
 calculates the share of time each core was busy doing something (including
 iowait), and prints a unicode block character for each core.
 
+(**NB:** the font on GitHub seems to be suboptimal. Using the Terminus font, the bottoms of the blocks are perfectly aligned.)
+
 ```bash
 $ uniload
 ▃▄▅▃%
@@ -21,7 +23,7 @@ $ uniload 500
 
 ```
 
-# how to build uniload
+# How to build uniload
 
 It's Rust, so get Rust via either https://rustup.rs/ or your distribution's package manager.
 Then, use `cargo build --release`, and find the uniload binary in `./target/release/`.
